@@ -6,11 +6,13 @@ We also just focus on MTK devices and providing them a pure OSS experience.
 
 ### Initializing & sync Repo ###
 
+#### Initialize repo
 ```
-# Initialize repo
 $ repo init -u git://github.com/MTKOSP/android.git -b mtkosp-1.0
+```
 
-# Sync 
+#### Sync 
+```
 $ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
