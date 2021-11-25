@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- external repos -->
+  <project path="external/colorkt" name="android_external_colorkt" remote="arrow" />
+  <project path="external/themelib" name="android_external_themelib" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+
+  <!-- packages repos -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
+
+</manifest>
